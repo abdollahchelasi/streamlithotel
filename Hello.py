@@ -21,12 +21,12 @@ show_pages(
     
     [
         
-        Page("app.py", "صفحه اصلی", "🏠"),
-        Page("page/game.py", "ساحل", "🎮"),
-        Page("page/application.py", "رستوران", "📳"),
-        Page("page/arz.py", "اتاق ها", "₿"),
-        Page("page/rahnama.py", "کافی شاب", "🚦"),
-        Page("page/rahnama.py", "مراسمات", "🚦"),
+        Page("Hello.py", "صفحه اصلی", "🏠"),
+        Page("page/sahel.py", "ساحل", "🎮"),
+        Page("page/res.py", "رستوران", "📳"),
+        Page("page/room.py", "اتاق ها", "₿"),
+        Page("page/cafe.py", "کافی شاب", "🚦"),
+        Page("page/marasem.py", "مراسمات", "🚦"),
     ]
     
 )
