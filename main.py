@@ -48,7 +48,7 @@ selected = option_menu (
 if selected == "جهت رزرو":
 
   st.write("تاریخ امروز :", tim)
-
+  st.divider()
   c1,c2 = st.columns(2)
   
   with c1:
