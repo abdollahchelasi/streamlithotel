@@ -4,7 +4,7 @@ import streamlit as st
 with open("c.css") as f:
   st.markdown(f"<style> {f.read()} </style>", unsafe_allow_html=True)
 
-st.text("اتاق های ساحل طلایی")
+st.header("اتاق های ساحل طلایی")
 
 
 
