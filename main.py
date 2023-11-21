@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 
 
 st.set_page_config(
-        page_title="هتل ساحل طلایی",
+        page_title="هتل ساحل طلایی قشم",
         page_icon="img/logo.png",
     )
 
