@@ -6,7 +6,7 @@ with open("c.css") as f:
   st.markdown(f"<style> {f.read()} </style>", unsafe_allow_html=True)
 
 
-st.text("🍫  کافی شاپ ساحل طلایی")
+st.header("🍫  کافی شاپ ساحل طلایی")
 
 
 
