@@ -2,6 +2,7 @@
 import streamlit as st
 from st_pages import Page, show_pages, add_page_title
 from streamlit_option_menu import option_menu
+from jdatetime import datetime
 
 
 st.set_page_config(
@@ -18,6 +19,8 @@ st.snow()
 # st.image("logo.png")
 
 
+now = datetime.now()
+tim = now.strftime("%Y/%m/%d")
 
 # col1,col2 = st.columns(2)
 
@@ -44,7 +47,7 @@ selected = option_menu (
 
 if selected == "جهت رزرو":
 
-  
+  st.write("TARIKH:", tim)
 
   c1,c2 = st.columns(2)
   
