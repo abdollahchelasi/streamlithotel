@@ -60,9 +60,9 @@ if selected == "جهت رزرو":
     
     st.markdown("[واتساپ 💬](http://wa.me/989025342900)")
     st.divider()
-    st.markdown("[تلگرام ](https://t.me/goldenbeachhotel)")
+    st.markdown("[تلگرام ](https://t.me/goldenbeach_hotel)")
     st.divider()
-    st.markdown("[اینستاگرام ](https://instagram.com/goldenbeachhotel)")
+    st.markdown("[اینستاگرام ](https://instagram.com/goldenbeach_hotel)")
 
 # with col2:
   # st.subheader("هتل ساحل طلایی قشم")
