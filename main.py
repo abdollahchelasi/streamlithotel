@@ -59,7 +59,7 @@ if selected == "جهت رزرو":
   
   with c1:
      st.markdown("[تماس](http://call.me/989025342900)")   
-    
+     st.divider()
     
     
 
