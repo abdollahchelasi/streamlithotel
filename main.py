@@ -56,9 +56,9 @@ if selected == "جهت رزرو":
   
         
   c1,c2 = st.columns(2)
-  
+  phone_number = "+989025342900"
   with c1:
-     st.markdown("[تماس](http://tel:989025342900)")   
+     st.markdown(f'<a href="tel:{phone_number}">{phone_number}</a>', unsafe_allow_html=True)
      st.divider()
     
     
