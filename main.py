@@ -48,14 +48,14 @@ selected = option_menu (
 if selected == "جهت رزرو":
 
   st.write("تاریخ امروز :", tim)
-  st.divider()
   st.caption("""
         مشخصات خودتان , تعداد نفرات , تاریخ ورود و خروج را توی واتساپ 💬 ارسال کنید
   """)
         
-  c1,c2 = st.columns(2)
-  
   st.divider()
+  
+        
+  c1,c2 = st.columns(2)
   
   with c1:
      st.markdown("[تماس](http://call.me/989025342900)")   
@@ -66,6 +66,8 @@ if selected == "جهت رزرو":
   with c2:
     
     st.markdown("[واتساپ 💬](http://wa.me/989025342900)")
+
+st.divider()
 
   with c1:
 
