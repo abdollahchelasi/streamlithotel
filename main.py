@@ -67,7 +67,7 @@ if selected == "جهت رزرو":
     
     st.markdown("[واتساپ 💬](http://wa.me/989025342900)")
 
-st.divider()
+    st.divider()
 
   with c1:
 
