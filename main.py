@@ -50,13 +50,15 @@ if selected == "جهت رزرو":
   st.write("تاریخ امروز :", tim)
   st.divider()
   c1,c2 = st.columns(2)
-  
-  with c1:
-    
-    st.caption("""
+  st.caption("""
         مشخصات خودتان , تعداد نفرات , تاریخ ورود و خروج را توی واتساپ 💬 ارسال کنید
   """)
-    st.divider()
+  st.divider()
+  
+  with c1:
+     st.markdown("[تماس](http://call.me/989025342900)")   
+    
+    
     
 
   with c2:
