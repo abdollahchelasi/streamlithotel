@@ -58,7 +58,7 @@ if selected == "جهت رزرو":
   c1,c2 = st.columns(2)
   
   with c1:
-     st.markdown("[تماس](http://call.me/989025342900)")   
+     st.markdown("[تماس](http://tel:989025342900)")   
      st.divider()
     
     
