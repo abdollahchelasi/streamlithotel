@@ -83,7 +83,8 @@ if selected == "جهت رزرو":
 
 
 elif selected == "قیمت اتاق ها":
-  st.image("img/n.png")
+   st.success("در حال بروزرسانی قیمت ها")   
+  # st.image("img/n.png")
 
 
 # st.divider()
