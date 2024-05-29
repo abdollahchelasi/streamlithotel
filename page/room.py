@@ -16,10 +16,10 @@ col1,col2 = st.columns(2)
 
 
 with col1:
-    with st.expander("اتاق", expanded=True):
-        st.image("https://www.vidagasht.com/wp-content/uploads/2020/01/golden-beach-hotel-qeshm-triple-room-2.jpg")
+    with st.expander("101 اتاق", expanded=True):
+        st.image("img/h1.png")
         st.caption("""
-        اتاق ها
+          اتاق ها با بهترین امکانات
             """)
 
 
@@ -28,16 +28,36 @@ with col1:
 
 
 with col2:
-  with st.expander("اتاق", expanded=True):
-    st.image("https://cdn.alibaba.ir/inh/domestic-hotel/image_5e617b9c-d139-4912-adf5-bfbfc8070caf.jpg")
+  with st.expander("220 اتاق", expanded=True):
+    st.image("img/h2.png")
     st.caption(
       """
-          اتاق ها
+خدمات و جاهای دیدنی
       """
     )
 
 
 
+with col1:
+    with st.expander("114 اتاق", expanded=True):
+        st.image("img/h3.png")
+        st.caption("""
+صدای امواج دریا توی اتاق
+            """)
+
+
+        # st.image(url="https://cdn.iconscout.com/icon/free/png-256/free-python-3629591-3032289.png",width=60)
+
+
+
+with col2:
+  with st.expander("118 اتاق", expanded=True):
+    st.image("img/h4.png")
+    st.caption(
+      """
+آرامش و هیجان
+      """
+    )
 
 
 
