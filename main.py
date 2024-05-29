@@ -25,7 +25,7 @@ tim = now.strftime("%Y/%m/%d")
 # col1,col2 = st.columns(2)
 
 # with col1:
-st.image("img/logo.png")
+
 
   
 selected = option_menu (
@@ -44,6 +44,12 @@ selected = option_menu (
 
       }
   )
+
+
+
+st.image("img/logo.png",width=100)
+
+
 
 if selected == "جهت رزرو":
 
@@ -73,7 +79,8 @@ if selected == "جهت رزرو":
   with c1:
 
     st.markdown("[تلگرام ](https://t.me/goldenbeach_hotel)")
-          
+    st.divider()
+
   with c2:     
     st.markdown("[اینستاگرام ](https://instagram.com/goldenbeach_hotel)")
 
