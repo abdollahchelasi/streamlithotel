@@ -37,12 +37,12 @@ menu_data = [
     
     {'id':'home','icon': "🏚", 'label':"صفحه اصلی",},
 
-    {"id": "room", "icon": "", "label": "اتاق ها"},
-    {'id':'cafe','icon':"",'label':"کافی شاب"},
-    {'id':'resturan','icon': "", 'label':"رستوران"},
-    {'id':'marasem','icon': "", 'label':"مراسمات"},
-    {'id':'sahel','icon': "", 'label':"ساحل"},
-    {'id':'soal','icon': "", 'label':"سوالات"},
+    {"id": "room", "icon": "🚪", "label": "اتاق ها"},
+    {'id':'cafe','icon':"☕",'label':"کافی شاب"},
+    {'id':'resturan','icon': "🍽️", 'label':"رستوران"},
+    {'id':'marasem','icon': " 🎁", 'label':"مراسمات"},
+    {'id':'sahel','icon': " 🏖️", 'label':"ساحل"},
+    {'id':'soal','icon': "❓", 'label':"سوالات"},
     
 ]
 
